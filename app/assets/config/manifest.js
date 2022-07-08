@@ -1,2 +1,9 @@
 //= link_tree ../images
 //= link_tree ../builds
+//= link normalize
+//= link remixicon
+//= link theme
+//= link theme-icon
+//= link bootstrap-min
+//= link lity-min
+//= link style

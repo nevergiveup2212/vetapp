@@ -3,14 +3,31 @@
   <head>
     <title>Vetapp</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag 'normalize' %>
+    <%= stylesheet_link_tag 'remixicon' %>
+    <%= stylesheet_link_tag 'theme' %>
+    <%= stylesheet_link_tag 'theme-icon' %>
+    <%= stylesheet_link_tag 'lity-min' %>
+    <%= stylesheet_link_tag 'style' %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <%= javascript_include_tag "main" %>
+    <%= javascript_include_tag "ajaxchimp" %>
+    <%= javascript_include_tag "ajaxchimp" %>
+    <%= javascript_include_tag "appear" %>
+    <%= javascript_include_tag "contact-form" %>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ev-emitter@2.1.2/ev-emitter.js"></script>
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".nav__area" data-offset="50">
     <%= yield %>
   </body>
 </html>
