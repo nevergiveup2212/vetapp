@@ -1,2 +1,23 @@
 /* ========= Enter Your CSS ========== */
+@font-face {
+  font-family: 'icomoon';
+  src: url('icomoon.ttf'), 
+       url('icomoon.woff'),
+       url('icomoon.eot'),
+       url('icomoon.svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
+@font-face {
+  font-family: 'remixicon';
+  src: url('remixicon.ttf'), 
+       url('remixicon.woff'),
+       url('remixicon.woff2'),
+       url('remixicon.svg'),
+       url('remixicon.eot');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

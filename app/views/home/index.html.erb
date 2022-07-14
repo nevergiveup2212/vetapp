@@ -5,7 +5,7 @@
 
 <!-- Full-Wrapper-Start -->
 <main class="full-wrapper" id="home-section">
-  <header class="home__area v1 section__bg" style="background-image: url('images/header-bg-1.jpg')">
+  <header class="home__area v1 section__bg" style="background-image: url(<%=image_url('header-bg-1.jpg') %>)">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -33,7 +33,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 mb-5 mb-lg-0">
           <figure class="about-image anim_left">
-            <img src="images/about-image.png" alt="">
+	    <%= image_tag 'about-image.png', alt: '' %>
           </figure>
         </div>
         <div class="col-lg-5 offset-lg-1">
@@ -133,7 +133,7 @@
   </section>
   <!--Service__Area-End-->
   <!--Counter__Area-Start-->
-  <section class="counter__area section__padding section__overlay section__bg" style="background-image: url('images/counter-bg.jpg')">
+  <section class="counter__area section__padding section__overlay section__bg" style="background-image: url(image_url('counter-bg.jpg'))">
     <div class="container">
       <div class="row items_space">
         <div class="col-md-3 col-sm-6">
@@ -187,7 +187,7 @@
       <div class="row">
         <div class="col-lg-6 mb-5 mb-lg-0">
           <figure class="check__image anim_left">
-            <img src="images/check-image.png" alt="">
+	    <%= image_tag 'check-image.png', alt: '' %>
             <svg class="svg_element">
               <use xlink:href="#svg__element-5" />
             </svg>
@@ -257,9 +257,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="testimonial__box">
-                  <div class="testimonial__box-image">
-                    <img src="images/testi-1.jpg" alt="">
-                  </div>
+		  <%= image_tag 'testi-1.jpg', alt: '', class: 'testimonial__box-image'%>
                   <div class="testimonial__box-quote">
                     <i class="icon-quote"></i>
                   </div>
@@ -272,9 +270,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="testimonial__box">
-                  <div class="testimonial__box-image">
-                    <img src="images/testi-2.jpg" alt="">
-                  </div>
+		  <%= image_tag 'testi-2.jpg', alt: '', class: 'testimonial__box-image'%>
                   <div class="testimonial__box-quote">
                     <i class="icon-quote"></i>
                   </div>
@@ -287,9 +283,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="testimonial__box">
-                  <div class="testimonial__box-image">
-                    <img src="images/testi-3.jpg" alt="">
-                  </div>
+		  <%= image_tag 'testi-3.jpg', alt: '', class: 'testimonial__box-image'%>
                   <div class="testimonial__box-quote">
                     <i class="icon-quote"></i>
                   </div>
@@ -302,9 +296,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="testimonial__box">
-                  <div class="testimonial__box-image">
-                    <img src="images/testi-4.jpg" alt="">
-                  </div>
+		  <%= image_tag 'testi-4.jpg', alt: '', class: 'testimonial__box-image'%>
                   <div class="testimonial__box-quote">
                     <i class="icon-quote"></i>
                   </div>
@@ -344,9 +336,7 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="team__box">
-                  <div class="team__box-image">
-                    <img src="images/team-1.jpg" alt="">
-                  </div>
+		  <%= image_tag 'team-1.jpg', alt: '', class: 'team__box-image'%>
                   <h5 class="team__box-name"><a href="single-team.html">Agnes C Brewer</a></h5>
                   <h6 class="team__box-position">Dog Walker</h6>
                   <div class="social__links">
@@ -358,9 +348,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="team__box">
-                  <div class="team__box-image">
-                    <img src="images/team-2.jpg" alt="">
-                  </div>
+		  <%= image_tag 'team-2.jpg', alt: '', class: 'team__box-image'%>
                   <h5 class="team__box-name"><a href="single-team.html">Lorie J Yates</a></h5>
                   <h6 class="team__box-position">Pet Sitter</h6>
                   <div class="social__links">
@@ -372,9 +360,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="team__box">
-                  <div class="team__box-image">
-                    <img src="images/team-3.jpg" alt="">
-                  </div>
+		  <%= image_tag 'team-3.jpg', alt: '', class: 'team__box-image'%>
                   <h5 class="team__box-name"><a href="single-team.html">Steven R Luna</a></h5>
                   <h6 class="team__box-position">Dog Walker</h6>
                   <div class="social__links">
@@ -386,9 +372,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="team__box">
-                  <div class="team__box-image">
-                    <img src="images/team-4.jpg" alt="">
-                  </div>
+		  <%= image_tag 'team-4.jpg', alt: '', class: 'team__box-image'%>
                   <h5 class="team__box-name"><a href="single-team.html">Floy R Davis</a></h5>
                   <h6 class="team__box-position">Pet Sitter</h6>
                   <div class="social__links">
@@ -400,9 +384,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="team__box">
-                  <div class="team__box-image">
-                    <img src="images/team-5.jpg" alt="">
-                  </div>
+		  <%= image_tag 'team-5.jpg', alt: '', class: 'team__box-image'%>
                   <h5 class="team__box-name"><a href="single-team.html">Willard C Hein</a></h5>
                   <h6 class="team__box-position">Fouder Of CEO</h6>
                   <div class="social__links">
@@ -448,7 +430,7 @@
                 <div class="price_box">
                   <div class="price_box-image">
                     <figure class="thumb">
-                      <img src="images/price-1.jpg" alt="">
+		      <%= image_tag 'price-1.jpg', alt: '' %>
                     </figure>
                     <svg class="svg_element">
                       <use xlink:href="#svg__element-8" />
@@ -470,7 +452,7 @@
                 <div class="price_box active">
                   <div class="price_box-image">
                     <figure class="thumb">
-                      <img src="images/price-2.jpg" alt="">
+                      <%= image_tag 'price-2.jpg', alt: '' %>
                     </figure>
                     <svg class="svg_element">
                       <use xlink:href="#svg__element-8" />
@@ -492,7 +474,7 @@
                 <div class="price_box">
                   <div class="price_box-image">
                     <figure class="thumb">
-                      <img src="images/price-3.jpg" alt="">
+		      <%= image_tag 'price-3.jpg', alt: '' %>
                     </figure>
                     <svg class="svg_element">
                       <use xlink:href="#svg__element-8" />
@@ -518,7 +500,7 @@
                 <div class="price_box">
                   <div class="price_box-image">
                     <figure class="thumb">
-                      <img src="images/price-1.jpg" alt="">
+		      <%= image_tag 'price-1.jpg', alt: '' %>
                     </figure>
                     <svg class="svg_element">
                       <use xlink:href="#svg__element-8" />
@@ -540,7 +522,7 @@
                 <div class="price_box active">
                   <div class="price_box-image">
                     <figure class="thumb">
-                      <img src="images/price-2.jpg" alt="">
+		      <%= image_tag 'price-2.jpg', alt: '' %>
                     </figure>
                     <svg class="svg_element">
                       <use xlink:href="#svg__element-8" />
@@ -562,7 +544,7 @@
                 <div class="price_box">
                   <div class="price_box-image">
                     <figure class="thumb">
-                      <img src="images/price-3.jpg" alt="">
+		      <%= image_tag 'price-3.jpg', alt: '' %>
                     </figure>
                     <svg class="svg_element">
                       <use xlink:href="#svg__element-8" />
@@ -605,7 +587,7 @@
               <div class="swiper-slide">
                 <div class="posts_box">
                   <figure class="posts_box-thumb">
-                    <img src="images/blog-2.jpg" alt="">
+		    <%= image_tag 'blog-2.jpg', alt: '' %>
                   </figure>
                   <div class="posts_box-details">
                     <ul class="meta_list">
@@ -629,7 +611,7 @@
               <div class="swiper-slide">
                 <div class="posts_box">
                   <figure class="posts_box-thumb">
-                    <img src="images/blog-3.jpg" alt="">
+		    <%= image_tag 'blog-3.jpg', alt: '' %>
                   </figure>
                   <div class="posts_box-details">
                     <ul class="meta_list">
@@ -653,7 +635,7 @@
               <div class="swiper-slide">
                 <div class="posts_box">
                   <figure class="posts_box-thumb">
-                    <img src="images/blog-4.jpg" alt="">
+		    <%= image_tag 'blog-4.jpg', alt: '' %>
                   </figure>
                   <div class="posts_box-details">
                     <ul class="meta_list">
@@ -677,7 +659,7 @@
               <div class="swiper-slide">
                 <div class="posts_box">
                   <figure class="posts_box-thumb">
-                    <img src="images/blog-1.jpg" alt="">
+		    <%= image_tag 'blog-1.jpg', alt: '' %>
                   </figure>
                   <div class="posts_box-details">
                     <ul class="meta_list">

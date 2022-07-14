@@ -2170,7 +2170,7 @@ body:not(.dark-theme) .nav__area.nav__transparent:not(.affix) .nav__logo .nav__l
 /*--------- Footer-Style --------*/
 .footer__area {
     background-color: rgba(var(--dark-bg), 1);
-    background-image: url('../images/footer-tr-bg.png');
+    background-image: url(footer-tr-bg.png);
     background-size: auto;
     background-repeat: repeat;
     background-position: center center;
